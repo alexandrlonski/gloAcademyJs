@@ -7,4 +7,4 @@ const money,
 
 alert('hello');
 
-console.log('I am learning js');
+console.log('we are learning js');
