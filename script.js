@@ -1,4 +1,4 @@
-let money,
+const money,
   income,
   addExpenses,
   deposit,
