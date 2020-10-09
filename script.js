@@ -6,7 +6,7 @@ const money = 3000,
   period = 12,
   budgetDay = 3000 / 30;
 
-console.log(money, income, deposit);
+console.log( typeof(money), typeof(income), typeof(deposit));
 console.log(addExpenses.length);
 console.log("Период равен " + period + " месяцев");
 console.log("Цель заработать " + mission + " долларов");
