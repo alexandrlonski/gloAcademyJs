@@ -62,13 +62,10 @@ let num ,
      sum += num
  }
 
- console.log(sum);
  return sum;
 }
 let expensesMonth = getExpensesMonth();
 console.log('Расходы за месяц: ' + expensesMonth);
-console.log(expenses);
-
 
  let getAccumulatedMonth = function(){
  return money - expensesMonth;
@@ -98,4 +95,3 @@ if (budgetDay > 1200){
   return ('Что то пошло не так');
 }
 };
-console.log(getStatusIncome());
