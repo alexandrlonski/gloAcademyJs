@@ -23,7 +23,7 @@ liBook2[9].before(liBook2[7]);
 
 let liBook5 = book[5].querySelectorAll('li');
 liBook5[1].after(liBook5[9]);
-liBook5[6].after(liBook5[2]);
+liBook5[6].before(liBook5[2]);
 liBook5[7].after(liBook5[5]);
 // задание 6
 let newEl = document.createElement('li');
