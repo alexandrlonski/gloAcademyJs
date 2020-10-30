@@ -203,7 +203,7 @@ AppData.prototype.addIncomeBlock = function() {
                 
                 incomePlus.before(incomeItems[0]);
         incomeItems = document.querySelectorAll('.income-items');
-        if(incomeItems.length === 2){
+        if(incomeItems.length === 3){
           incomePlus.style.display = 'none';
         }  
         this.placeholderAmountFunc();
